@@ -8,6 +8,8 @@ class Settings(BaseSettings):
     environment: str = "development"
     database_url: str = "sqlite:///./contract_risk.db"
     jwt_secret_key: str = "change-this-before-production"
+    jwt_algorithm: str = "HS256"
+    access_token_expire_minutes: int = 480
     cors_origins: str = "http://localhost:5173"
 
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")

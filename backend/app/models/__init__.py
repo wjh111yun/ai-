@@ -1,1 +1,3 @@
-"""SQLAlchemy models are added here as MVP entities are implemented."""
+from app.models.user import User
+
+__all__ = ["User"]

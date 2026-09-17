@@ -9,4 +9,10 @@ body { margin: 0; }
 .login-page { display: grid; min-height: 100vh; place-items: center; }
 .login-card { width: min(440px, calc(100vw - 32px)); }
 .login-card h1 { margin-top: 0; }
-.status { min-height: 24px; color: #606266; }
+.subtitle, .hint { color: #606266; }
+.hint { font-size: 13px; margin-bottom: 0; }
+.login-button { width: 100%; margin-top: 20px; }
+.dashboard-page { min-height: 100vh; padding: 48px; }
+.dashboard-card { background: white; border-radius: 8px; display: flex; justify-content: space-between; align-items: start; margin: 0 auto; max-width: 960px; padding: 32px; }
+.dashboard-card h1 { margin: 4px 0 8px; }
+.eyebrow { color: #409eff; font-size: 14px; margin: 0; }
